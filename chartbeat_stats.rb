@@ -8,5 +8,5 @@ c = Chartbeat.new :apikey => 'bac4fb31ec3c4c7cca6730a85d18c295', :host => 'lagac
 #c.quickstats       :path => '/'
 #c.toppages         :limit => 10
 result = c.quickstats           :path => '', :limit => 1
-puts result['search'].inspect
-puts result['visits'].inspect
+puts result['search']
+puts result['visits']
